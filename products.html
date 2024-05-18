@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Side bar</title>
+   <link rel="stylesheet" href="style.css">
+
+   <style>
+      @import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Rancho&display=swap');
+
+      body {
+         padding: 0px;
+         margin: 0px;
+         font-family: "Rancho";
+      }
+
+      .container {
+         display: flex;
+         min-height: 100vh;
+      }
+
+      .sidebar {
+         background-color: grey;
+         width: 200px;
+         padding-top: 150px;
+         padding-bottom: 150px;
+
+
+      }
+
+      .content {
+         background-color: white;
+         width: 1750px;
+         display: flex;
+         flex-direction: row;
+         margin-left: 70px;
+         flex-wrap: wrap;
+         height: 1650px;
+
+
+      }
+
+      .first-container {
+         width: 1700px;
+         display: flex;
+         flex-wrap: wrap;
+         height: 530px;
+
+
+      }
+
+      .second-container {
+         display: flex;
+         flex-wrap: wrap;
+         height: 530px;
+         width: 1700px;
+
+
+      }
+
+      .third-container {
+         display: flex;
+         flex-wrap: wrap;
+         height: 530px;
+         width: 1700px;
+
+
+      }
+
+      .menu-item {
+
+         border-radius: 20px;
+         border: solid 2px black;
+         align-items: center;
+         padding: 5px 20px;
+         background-color: whitesmoke;
+         display: flex;
+         align-items: center;
+         padding-right: 70px;
+
+      }
+
+      .menu-icon {
+         height: 50px;
+         width: 50px;
+
+      }
+
+      .menu-text {
+         margin-left: 15px;
+         font-size: 25px;
+      }
+
+      .card2 {
+         width: 300px;
+         height: 500px;
+         border: solid #b30047 1px;
+         box-shadow: 0px 0px 5px 10px rgb(169, 166, 166);
+         margin-left: 20px;
+         margin-top: 20px;
+         text-align: center;
+         padding-top: 20px;
+         font-size: 23px;
+         color: #b30047;
+         margin-left: 40px;
+         margin-bottom: 30px;
+
+
+      }
+
+      .categories {
+         font-size: 30px;
+         color: #b30047;
+         font-weight: bold;
+      }
+
+      .card-img {
+         width: 300px;
+         height: 350px;
+      }
+
+      .five-container {
+         margin-left: 1000px;
+      }
+   </style>
+</head>
+
+<body>
+   <div class="container">
+      <div class="sidebar">
+
+         <div class="menu-item">
+            <img src="./img/sidebar/home.png" class="menu-icon">
+            <span class="menu-text"><a href="index.html">Home</a></span><br>
+         </div>
+         <div class="menu-item">
+            <img src="./img/sidebar/about-us.png" class="menu-icon">
+            <span class="menu-text"><a href="about.html">About us</a></span><br>
+         </div>
+         <div class="menu-item">
+            <img src="./img/sidebar/contact-us.png" class="menu-icon">
+            <span class="menu-text"><a href="contact.html">Contact us</a></span><br>
+         </div>
+         <div class="menu-item">
+            <img src="./img/sidebar/products.png" class="menu-icon">
+            <span class="menu-text"><a href="products.html">Products</a></span><br>
+         </div>
+         <div class="menu-item">
+            <img src="./img/sidebar/visit.png" class="menu-icon">
+            <span class="menu-text"><a href="visit.html">Visit us</a></span>
+
+         </div>
+
+      </div>
+
+      <div class="content">
+         <div class="first-container">
+            <div class="card2">
+               <img src="./img/content/category-1/img-1.PNG" class="card-img"><br>
+               GoSriKi<br>
+               Rayon Blend Women Kurta Set<br>
+               Rating : 4.8 out of 5 stars <br>
+               50+ bought in past month <br>
+               ₹699 M.R.P: ₹2,599 (73% off)
+
+            </div>
+            <div class="card2">
+               <img src="./img/content/category-1/img-2.PNG" class="card-img"><br>
+               Rangita<br>
+               Women's Kurta<br>
+               Rating : 5.0 out of 5 stars 11 <br>
+               ₹799 M.R.P: ₹2,399 (67% off)
+
+            </div>
+            <div class="card2">
+               <img src="./img/content/category-1/img-3.PNG" class="card-img"><br>
+               Indya<br>
+               Women Kurta<br>
+               Rating :4.9 out of 5 stars 13<br>
+               ₹1,575 M.R.P: ₹3,500 (55% off)
+            </div>
+         </div>
+         <div class="second-container">
+            <div class="card2">
+               <img src="./img/content/category-1/img-4.PNG" class="card-img"><br>
+               BIBA<br>
+               Women Kurta<br>
+               Rating : 4.8 out of 5 stars 16<br>
+               ₹1,279 M.R.P: ₹2,999 (57% off)
+
+            </div>
+
+            <div class="card2">
+               <img src="./img/content/category-1/img-5 .PNG" class="card-img"><br>
+               GoSriKi<br>
+               Women Kurta with Pant & Dupatta<br>
+               Rating : 4.7 out of 5 stars 19<br>
+               ₹899 M.R.P: ₹2,599 (65% off)
+
+            </div>
+            <div class="card2">
+               <img src="./img/content/category-2/img-1.PNG" class="card-img"><br>
+               NAINVISH<br>
+               Tops for Women Printed Shirt Top for Women<br>
+               Rating:3.6 out of 5 stars 213<br>
+               ₹299 M.R.P: ₹4,599 (93% off)
+
+            </div>
+         </div>
+         <div class="third-container">
+            <div class="card2">
+               <img src="./img/content/category-2/img-2.PNG" class="card-img"><br>
+               RodZen<br>
+               Oversized
+               for Womens/Girls<br>
+               Rating:3.9 out of 5 stars 315<br>
+               ₹400 M.R.P: ₹1,200 (73% off)
+
+            </div>
+            <div class="card2">
+               <img src="./img/content/category-2/img-3.PNG" class="card-img"><br>
+               LEOTUDE<br>
+               Women Cottonblend Half Sleeve Oversized Regular Fit T-Shirts<br>
+               Rating:3.7 out of 5 stars 871<br>
+               ₹298 M.R.P: ₹1,099 (73% off)
+            </div>
+
+
+            <div class="card2">
+               <img src="./img/content/category-2/img4.PNG" class="card-img"><br>
+               London Hills<br>
+               Women Printed Round Neck Oversized T-Shirt<br>
+               Rating : 4.0 out of 5 stars 394<br> ₹698 M.R.P: ₹3,897 (82% off)
+
+            </div>
+         </div>
+
+         <div class="Four-container">
+
+         </div>
+         <div class="card2">
+            <img src="./img/content/category-3/img-1.PNG" class="card-img"><br>
+            SIRIL<br>
+            Women's Tassel & Printed Cotton Saree with Blouse<br>
+            Rating: 3.1 out of 5 stars 23<br>
+            ₹419 M.R.P: ₹2,281 (82% off)
+         </div>
+         <div class="card2">
+            <img src="./img/content/category-3/img-2.PNG" class="card-img"><br>
+            Avantika Fashion<br>
+            Women's Cotton Linen Saree With Blouse Piece<br>
+            Rating:3.7 out of 5 stars 871<br>
+            ₹469 M.R.P: ₹3,999 (88% off)
+         </div>
+         <div class="card2">
+            <img src="./img/content/category-3/img-3.PNG" class="card-img"><br>
+            SIRIL<br>
+            Women's Jacquard Cotton Silk Saree with Unstitched Blouse Piece<br>
+            Rating :4.0 out of 5 stars <br>
+            ₹549 M.R.P: ₹2,688 (80% off)
+         </div>
+      </div>
+
+
+   </div>
+   </div>
+   </div>
+   </div>
+
+</body>
+
+</html>
