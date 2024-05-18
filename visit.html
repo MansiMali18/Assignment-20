@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <title>Side bar</title>
+      <link rel="stylesheet" href="style.css">
+
+    <style>        
+       @import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Rancho&display=swap');
+
+     body{
+        padding: 0px;
+        margin: 0px;
+        font-family: "Rancho";
+     }
+     .container{
+          display: flex;
+          min-height: 100vh;
+     }
+     .sidebar{
+          background-color: grey;
+          width: 200px;
+          padding-top: 150px;
+          padding-bottom: 150px;
+     }
+     .content{
+        background-color: white;
+        width: 100%;
+        text-align: center;
+     }
+     .menu-item{
+
+        border-radius: 20px;
+        border: solid 2px black;
+        align-items: center;
+        padding: 5px 20px;
+        background-color: whitesmoke;
+        display: flex;
+        align-items: center;
+        padding: 5px 5px;
+     }
+     .menu-icon{
+          height: 50px;
+          width: 50px;
+          
+     }
+     .menu-text{
+        margin-left: 10px;
+        font-size: 22px;
+     }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div  class="sidebar"> 
+           
+            <div class="menu-item">
+            <img src="./img/sidebar/home.png" class="menu-icon">
+            <span class="menu-text" ><a href ="./../index.html">Home</a></span><br>
+            </div>
+            <div class="menu-item">
+            <img src="./img/sidebar/about-us.png" class="menu-icon">
+            <span class="menu-text" ><a href ="about.html">About us</a></span><br>
+            </div>
+            <div class="menu-item">
+            <img src="./img/sidebar/contact-us.png" class="menu-icon">
+            <span class="menu-text" ><a href ="contact.html">Contact us</a></span><br>
+            </div>
+            <div class="menu-item">
+            <img src="./img/sidebar/products.png" class="menu-icon">
+            <span class="menu-text" ><a href ="products.html">Products</a></span><br>
+            </div>
+            <div class="menu-item">
+            <img src="./img/sidebar/visit.png" class="menu-icon">
+            <span class="menu-text" ><a href ="visit.html">Visit us</a></span>
+
+           </div>
+       
+        </div>
+        
+        <div class="content">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.300893326983!2d73.77600367422393!3d18.65048896519472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b9db47dd7751%3A0x2bedb9d936287ff9!2z4KSu4KS-4KSo4KS44KWAIOCkuOCkv-CksuClh-CkleCljeCktuCkqA!5e0!3m2!1smr!2sin!4v1715951582070!5m2!1smr!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</body>
+</html>
