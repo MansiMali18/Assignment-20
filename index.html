@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <title>Side bar</title>
+      <link rel="stylesheet" href="style.css">
+    <style>
+     @import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Rancho&display=swap');
+     @import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Rancho&display=swap');
+     body{
+        padding: 0px;
+        margin: 0px;
+        font-family: "Rancho", cursive;
+     }
+     .container{
+          display: flex;
+          min-height: 100vh;
+     }
+     .sidebar{
+          background-color: grey;
+          width: 200px;
+          padding-top: 150px;
+          padding-bottom: 150px;
+     }
+     .content{
+        background-color: white;
+        width: 100vh;
+        
+     }
+     .menu-item{
+           border-radius: 20px;
+        border: solid 2px black;
+        align-items: center;
+        padding: 5px 20px;
+        background-color: whitesmoke;
+        display: flex;
+        align-items: center;
+        padding: 5px 5px;
+     }
+     .menu-icon{
+          height: 50px;
+          width: 50px;
+          
+     }
+     .menu-text{
+        margin-left: 10px;
+        font-size: 22px;
+     }
+     .index-heading{
+      margin-left: 400px;
+      font-size: 60px;
+      font-family: "Rancho";
+      color: #00334d;
+      font-style: italic;
+      font-weight: bold;
+      font-stretch: extra-expanded;
+      font-style: underline;
+      display: flex;
+      align-items: start;
+   }
+       .index-img{
+         width: 600px;
+         height: 300px;
+         margin-top: 200px;
+         display:flex;
+         justify-content: space-around;  
+         margin: 100px 20px;
+       }
+       .menu-item:hover{
+              background-color: rgb(193, 248, 248);
+              cursor: pointer;
+       }
+       .categories{
+         display: flex;
+          font-size: 40px;
+          text-align: center;
+          justify-content: space-around;
+          width: 300px;
+          height: 300px;
+          margin-left: 300px;
+       }
+       .categories-heading{
+         font-size: 40px;
+         font-weight: bold;
+         text-align: center;
+        margin-left: 500px;
+        color: #b30047;
+       }
+      
+      
+</style>
+</head>
+<body>
+    <div class="container">
+        <div  class="sidebar"> 
+           
+            <div class="menu-item">
+            <img src="./img/sidebar/home.png" class="menu-icon">
+            <span class="menu-text" ><a href ="index.html">Home</a></span><br>
+            </div>
+            <div class="menu-item">
+            <img src="./img/sidebar/about-us.png" class="menu-icon">
+            <span class="menu-text" ><a href ="about.html">About us</a></span><br>
+            </div>
+            <div class="menu-item">
+            <img src="./img/sidebar/contact-us.png" class="menu-icon">
+            <span class="menu-text" ><a href ="contact.html">Contact us</a></span><br>
+            </div>
+            <div class="menu-item">
+            <img src="./img/sidebar/products.png" class="menu-icon">
+            <span class="menu-text" ><a href ="products.html">Products</a></span><br>
+            </div>
+            <div class="menu-item">
+            <img src="./img/sidebar/visit.png" class="menu-icon">
+            <span class="menu-text" ><a href ="visit.html">Visit us</a></span>
+
+           </div>
+       
+        </div>
+        
+        <div class="content">
+            <div class="index-heading">
+               Mansi Collection
+           </div>
+           <div class="index-img">
+            <img src="./img/content/img1.PNG">
+            <img src="./img/content/img2.PNG">
+           </div>
+           <div class="categories-heading">
+            Our Categories
+           </div>
+            <div class="categories">
+                   <img src="./img/content/category-1.PNG">
+                   <img src="./img/content/category-2.PNG">
+                   <img src="./img/content/category-3.PNG">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
