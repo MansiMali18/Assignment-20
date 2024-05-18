@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <title>Side bar</title>
+      <link rel="stylesheet" href="style.css">
+    <style>
+                 @import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Rancho&display=swap');
+     body{
+        padding: 0px;
+        margin: 0px;
+        font-family: "Rancho";
+     }
+     .container{
+          display: flex;
+          min-height: 100vh;
+          width: 100vh;
+     }
+     .sidebar{
+          background-color: grey;
+          width: 200px;
+          padding-top: 150px;
+          padding-bottom: 150px;
+     }
+     .content{
+        background-color: white;
+        width: 100%;
+     }
+     .menu-item{
+
+        border-radius: 20px;
+        border: solid 2px black;
+        align-items: center;
+        padding: 5px 20px;
+        background-color: whitesmoke;
+        display: flex;
+        align-items: center;
+        padding: 5px 5px;
+     }
+     .menu-icon{
+          height: 50px;
+          width: 50px;
+          
+     }
+     .menu-text{
+        margin-left: 10px;
+        font-size: 22px;
+     }
+     .address{
+      font-size: 35px;
+      color: #b30047;
+      margin-top: 150px;
+      margin-left: 50px;
+     }
+     .contact
+     {
+      font-size: 45px;
+      color: #b30047;
+      text-align: center;
+      font-weight: bold;
+      margin-top: 100px;
+      margin-left: 300px;
+     }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div  class="sidebar"> 
+           
+            <div class="menu-item">
+            <img src="./img/sidebar/home.png" class="menu-icon">
+            <span class="menu-text" ><a href ="index.html">Home</a></span><br>
+            </div>
+            <div class="menu-item">
+            <img src="./img/sidebar/about-us.png" class="menu-icon">
+            <span class="menu-text" ><a href ="about.html">About us</a></span><br>
+            </div>
+            <div class="menu-item">
+            <img src="./img/sidebar/contact-us.png" class="menu-icon">
+            <span class="menu-text" ><a href ="contact.html">Contact us</a></span><br>
+            </div>
+            <div class="menu-item">
+            <img src="./img/sidebar/products.png" class="menu-icon">
+            <span class="menu-text" ><a href ="products.html">Products</a></span><br>
+            </div>
+            <div class="menu-item">
+            <img src="./img/sidebar/visit.png" class="menu-icon">
+            <span class="menu-text" ><a href ="visit.html">Visit us</a></span>
+
+           </div>
+       
+        </div>
+        
+        <div class="content">
+         <div class="contact">We are avaliable</div>
+                   <div class="address">
+                         <img src="./img/content/icons8-ringer-volume-50.png"> 9876543210<br>
+                         <img src="./img/content/icons8-address-50.png">Address: मानसी सिलेक्शन
+                         आकुर्डी गावठाण, दत्तवाडी, Akurdi, पिंपरी चिंचवड, महाराष्ट्र 411035<br>
+                         <img src="./img/content/icons8-mail-50.png">Email: mansi18@gmail.com<br>
+                     </div>
+        </div>
+    </div>
+</body>
+</html>
