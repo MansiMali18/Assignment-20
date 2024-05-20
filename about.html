@@ -7,65 +7,58 @@
 
    <style>
            @import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Rancho&display=swap');
+           @media (max-width: 600px) {
+   .sidebar {
+       width: 200px;
+       padding: 10px;
+   }
 
-      body {
-         padding: 0px;
-         margin: 0px;
-         font-family: "Rancho";
-      }
+   .menu-item {
+      border-radius: 5px;
+      border: solid 1px black;
+      align-items: center;
+      padding: 2px 5px;
+      background-color: whitesmoke;
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+   }
+   .content {
+       padding: 5px;
+   }
 
-      .container {
-         display: flex;
-         min-height: 100vh;
-      }
+   .index-heading {
+       font-size: 20px;
+       text-align: center;
+       margin-left: 0;
+   }
 
-      .sidebar {
-         background-color: grey;
-         width: 200px;
-         padding-top: 150px;
-          padding-bottom: 150px;
-      }
+   .index-img {
+       flex-direction: column;
+       align-items: center;
+   }
 
-      .content {
-         background-color: white;
-         width: 100%;
-      }
+   .index-img img {
+       max-width: 100%;
+       margin: 10px 0;
+   }
 
-      .menu-item {
+   .categories {
+       flex-direction: column;
+       align-items: center;
+   }
 
-         border-radius: 20px;
-         border: solid 2px black;
-         align-items: center;
-         padding: 5px 20px;
-         background-color: whitesmoke;
-         display: flex;
-         align-items: center;
-         padding: 5px 5px;
-      }
+   .categories img {
+       max-width: 100%;
+   }
 
-      .menu-icon {
-         height: 50px;
-         width: 50px;
-
-      }
-
-      .menu-text {
-         margin-left: 10px;
-         font-size: 22px;
-      }
-       .txt{
-          margin-top: 20px;
-          font-size: 40px;
-          color: #660029;
-          text-align: center;
-          margin-left: 300px;
-       }
-      .text {
-         font-size: 35px;
-         color:#b30047;
-         font-style: italic;
-         list-style-type: circle;
-      }
+   .categories-heading {
+       font-size: 10px;
+       text-align: center;
+       margin-left: 0;
+   }
+     
+}
    </style>
 </head>
 
